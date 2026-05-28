@@ -1,0 +1,11 @@
+{
+  "Group": "Payment methods",
+  "FriendlyName": "Saman Bank (SEP)",
+  "SystemName": "Payments.Saman",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.30" ],
+  "Author": "Developed for NopCommerce 4.3",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Payments.Saman.dll",
+  "Description": "Saman Bank (SEP) internet payment gateway plugin"
+}

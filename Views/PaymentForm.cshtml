@@ -1,0 +1,54 @@
+@{
+    Layout = null;
+    var paymentUrl = (string)ViewBag.PaymentUrl;
+    var token = (string)ViewBag.Token;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>در حال انتقال به درگاه بانک سامان...</title>
+    <style>
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            padding-top: 100px;
+            background: #f5f5f5;
+        }
+        .box {
+            display: inline-block;
+            background: #fff;
+            border-radius: 8px;
+            padding: 40px 60px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.15);
+        }
+        .logo { font-size: 22px; font-weight: bold; color: #c00; margin-bottom: 16px; }
+        p { color: #555; margin-bottom: 24px; }
+        .btn-pay {
+            background: #c00;
+            color: #fff;
+            border: none;
+            padding: 12px 36px;
+            font-size: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn-pay:hover { background: #a00; }
+    </style>
+</head>
+<body onload="document.getElementById('samanForm').submit()">
+    <div class="box">
+        <div class="logo">بانک سامان</div>
+        <p>در حال انتقال به درگاه پرداخت اینترنتی بانک سامان (SEP) ...</p>
+        <form id="samanForm" action="@paymentUrl" method="post">
+            <input type="hidden" name="Token" value="@token" />
+            <noscript>
+                <p>جاوااسکریپت در مرورگر شما غیرفعال است.</p>
+                <button type="submit" class="btn-pay">ادامه و پرداخت</button>
+            </noscript>
+        </form>
+    </div>
+</body>
+</html>
