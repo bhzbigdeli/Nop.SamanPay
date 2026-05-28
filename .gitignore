@@ -1,0 +1,31 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# NopCommerce - don't track generated/compiled assets
+wwwroot/lib/
+wwwroot/bundles/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
