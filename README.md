@@ -1,8 +1,26 @@
+## Version Compatibility
+
+| Plugin version | NopCommerce | .NET   | Branch                                                                    | Status      |
+|---------------|-------------|--------|---------------------------------------------------------------------------|-------------|
+| v2.x          | 4.70.x      | 8.0    | [main](../../tree/main)                                                   | Active dev  |
+| v1.x          | 4.30.x      | 3.1    | [nop/4.3](../../tree/nop/4.3)                                             | Stable      |
+
+---
+
 <div dir="rtl">
 
-# افزونه پرداخت بانک سامان برای NopCommerce 4.3
+## جدول سازگاری نسخه‌ها
 
-افزونه‌ای برای اتصال NopCommerce 4.3 به درگاه اینترنتی بانک سامان (SEP) با استفاده از API نسخه ۲ (REST/JSON).
+| نسخه افزونه | NopCommerce | .NET | شاخه | وضعیت |
+|-------------|-------------|------|-------|--------|
+| v2.x | 4.70.x | 8.0 | [main](../../tree/main) | توسعه فعال |
+| v1.x | 4.30.x | 3.1 | [nop/4.3](../../tree/nop/4.3) | پایدار |
+
+---
+
+# افزونه پرداخت بانک سامان برای NopCommerce
+
+افزونه‌ای برای اتصال NopCommerce به درگاه اینترنتی بانک سامان (SEP) با استفاده از API نسخه ۲ (REST/JSON).
 
 ## ویژگی‌ها
 
@@ -140,9 +158,9 @@ MIT License — آزاد برای استفاده در پروژه‌های تجا
 
 ---
 
-# Saman Bank Payment Plugin for NopCommerce 4.3
+# Saman Bank Payment Plugin for NopCommerce
 
-A NopCommerce 4.3 plugin integrating the Saman Bank (SEP) internet payment gateway using the SEP v2 REST/JSON API.
+A NopCommerce plugin integrating the Saman Bank (SEP) internet payment gateway using the SEP v2 REST/JSON API.
 
 ## Features
 
