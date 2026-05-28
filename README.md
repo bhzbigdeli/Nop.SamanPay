@@ -37,8 +37,8 @@
 
 | مورد | نسخه |
 |------|-------|
-| NopCommerce | 4.3.x |
-| .NET | Core 3.1 |
+| NopCommerce | 4.9.x |
+| .NET | 9.0 |
 | شناسه پایانه (TerminalId) | فعال‌شده توسط بانک سامان |
 | آدرس ReturnUrl | **باید از اینترنت عمومی در دسترس باشد** — localhost توسط بانک رد می‌شود |
 
@@ -48,7 +48,7 @@
 
 1. پروژه را در کنار سایر افزونه‌های NopCommerce قرار دهید:
    ```
-   Nop4.3/Plugins/Nop.Plugin.Payments.Saman/
+   Plugins/Nop.Plugin.Payments.Saman/
    ```
 2. در Visual Studio یا از خط فرمان بیلد کنید:
    ```bash
@@ -177,8 +177,8 @@ A NopCommerce plugin integrating the Saman Bank (SEP) internet payment gateway u
 
 | Item | Version / Note |
 |------|---------------|
-| NopCommerce | 4.3.x |
-| .NET | Core 3.1 |
+| NopCommerce | 4.9.x |
+| .NET | 9.0 |
 | Terminal ID | Issued by Saman Bank |
 | Return URL | **Must be publicly reachable** — Saman Bank rejects `localhost` URLs |
 
@@ -188,7 +188,7 @@ A NopCommerce plugin integrating the Saman Bank (SEP) internet payment gateway u
 
 1. Place the project alongside other NopCommerce plugins:
    ```
-   Nop4.3/Plugins/Nop.Plugin.Payments.Saman/
+   Plugins/Nop.Plugin.Payments.Saman/
    ```
 2. Build (Visual Studio or CLI):
    ```bash
